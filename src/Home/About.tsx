@@ -74,6 +74,7 @@ const AboutMe = () => {
   return (
     <section
       ref={sectionRef}
+      id='about'
       className="bg-gradient-to-br from-[#FFEDE1] to-[#fef0e8] px-6 md:px-20 md:py-24 sm:py-12"
     >
       {/* Section Title */}
@@ -132,7 +133,10 @@ const AboutMe = () => {
           ))}
 
           <div ref={buttonRef}>
+          <a href="#contact">
+
             <MagnetButton className="mt-10 px-8 py-4">Let’s Collaborate</MagnetButton>
+            </a>
           </div>
         </div>
       </div>

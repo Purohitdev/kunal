@@ -31,7 +31,7 @@ const ContactPage = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="px-6 md:px-8 py-20 text-[#2c2c2c]">
+    <section id="contact" ref={sectionRef} className="px-6 md:px-8 py-20 text-[#2c2c2c]">
       <div
         ref={formBlockRef}
         className="mx-auto bg-[#D6DF3F] grid md:grid-cols-2 gap-16 rounded-3xl p-10 md:p-16"

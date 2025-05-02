@@ -45,7 +45,7 @@
 //       className="relative bg-[#FFEDE1] min-h-screen flex flex-col items-center justify-center px-4 md:px-6 text-center overflow-hidden"
 //     >
 //       {/* Background Shapes */}
-      
+
 //       <div
 //         ref={shape1}
 //         className="absolute left-0 top-0 w-[180px] h-[180px] md:w-[300px] md:h-[300px] bg-[#D7DF3F] clip-polygon-1 z-0"
@@ -149,19 +149,21 @@ const Hero: React.FC = () => {
       {/* Main Content */}
       <div ref={content} className="z-10 max-w-2xl md:max-w-6xl">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-extrabold text-[#30312C] ">
-        Work with a high-performing freelance{' '}
+          Work with a high-performing freelance{' '}
           <span className="bg-[#EBC8F9] px-2 rounded-3xl inline-block">video editor</span>and save on agency costs
         </h1>
 
         <p className="mt-6 text-base sm:text-lg md:text-xl text-[#30312C] font-medium">
-        I create scroll-stopping short-form content and engaging long-form videos—tailored to help your brand stand out, without the overhead of a large agency.        </p>
+          I create scroll-stopping short-form content and engaging long-form videos—tailored to help your brand stand out, without the overhead of a large agency.        </p>
+        <a href="#contact">
 
-        <MagnetButton className="mt-8 sm:mt-10 px-6 py-3 sm:px-8 sm:py-4 text-sm sm:text-base">
-        Let's Connect
-        </MagnetButton>
+          <MagnetButton className="mt-8 sm:mt-10 px-6 py-3 sm:px-8 sm:py-4 text-sm sm:text-base">
+            Let's Connect
+          </MagnetButton>
+        </a>
       </div>
     </div>
   );
-}; 
+};
 
 export default Hero;

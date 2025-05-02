@@ -58,17 +58,21 @@ const Nav: React.FC = () => {
 
         {/* Desktop Links */}
         <div className="hidden md:flex gap-8 text-base md:text-lg">
-          <a href="#examples" className="hover:underline">Project</a>
+        <a href="#about" className="hover:underline">About</a>
+          <a href="#Project" className="hover:underline">Project</a>
           <a href="#how" className="hover:underline">How it Works</a>
-          <a href="#pricing" className="hover:underline">Service</a>
-          <a href="#faq" className="hover:underline">Contact</a>
+          <a href="#service" className="hover:underline">Service</a>
+          <a href="#contact" className="hover:underline">Contact</a>
         </div>
 
         {/* Always show button on right */}
         <div className="z-20">
+        <a href="#contact">
+
           <MagnetButton className="px-5 py-2 text-sm md:text-base">
             Hire an Editor
           </MagnetButton>
+          </a>
         </div>
       </div>
 

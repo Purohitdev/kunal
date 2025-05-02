@@ -55,9 +55,9 @@ const HowItWorks: React.FC = () => {
   }, []);
 
   return (
-    <section className="bg-[#FFEDE1] py-24 px-6 md:px-20 text-[#1A1A1A] font-sans">
+    <section id='how' className="bg-[#FFEDE1] py-24 px-6 md:px-20 text-[#1A1A1A] font-sans">
       <h2 className="text-3xl md:text-7xl font-extrabold mb-20 max-w-6xl mx-auto text-center leading-tight">
-        How I Work
+        How Its Work
       </h2>
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-20 text-left">

@@ -75,7 +75,7 @@ const BentoGrid: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#FFEDE1] py-24 px-6 text-[#1A1A1A] font-sans">
+    <section  id="service"className="bg-[#FFEDE1] py-24 px-6 text-[#1A1A1A] font-sans">
       <div className="text-center mb-12">
         <p className="text-lg font-semibold mb-2">Types of Videos</p>
         <h2 className="text-4xl md:text-6xl font-extrabold leading-tight max-w-3xl mx-auto">
