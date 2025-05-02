@@ -4,7 +4,6 @@ import Nav from '../Nav';
 import CreativeSection from './CreativeSection';
 import Hero from './Hero';
 import VideoCarousel from './Video';
-import HowItWorks from './How';
 import VideoTypesSection from './Videotype';
 import Footer from './Footer';
 import Testimonials from './Test';
