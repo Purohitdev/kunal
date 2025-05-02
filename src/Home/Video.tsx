@@ -197,47 +197,26 @@ const videos: VideoData[] = [
     aspect: 'horizontal',
     embedHtml: `<iframe src="https://player.vimeo.com/video/1080865124?h=634e7cc0c5&badge=0&autopause=0&player_id=0&app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>`,
   },
+
   {
     id: 1,
-    aspect: 'vertical',
-    thumbnail: 'https://i.pinimg.com/736x/73/9a/75/739a7533eb5dd79b87a73c9da01dd853.jpg',
-    embedHtml: `<div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1080899686?h=4b2006017a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sequence 01"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`,
+    aspect: 'horizontal',
+    embedHtml: `<iframe src="https://player.vimeo.com/video/1080872648?h=604dc4997c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=5847" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>`,
   },
+
   {
     id: 2,
-    aspect: 'horizontal',
-    thumbnail: 'https://i.pinimg.com/736x/64/2b/c1/642bc1cafe8a196fec5c20140ee137b4.jpg',
-    embedHtml: `<iframe src="https://player.vimeo.com/video/1080872648?h=604dc4997c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>`,
+    aspect: 'vertical',
+    embedHtml: `<iframe src="https://player.vimeo.com/video/1080899686?h=4b2006017a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>`,
   },
+
   {
     id: 3,
-    aspect: 'vertical',
-    thumbnail: 'https://i.pinimg.com/736x/73/9a/75/739a7533eb5dd79b87a73c9da01dd853.jpg',
-    embedHtml: `<div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1080876447?h=4070afc50b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sequence 01"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`,
-  },
-  {
-    id: 0,
     aspect: 'horizontal',
-    embedHtml: `<iframe src="https://player.vimeo.com/video/1080865124?h=634e7cc0c5&badge=0&autopause=0&player_id=0&app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>`,
+    embedHtml: `<iframe src="https://player.vimeo.com/video/1080902923?h=be3ec4c007&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>`,
   },
-  {
-    id: 1,
-    aspect: 'vertical',
-    thumbnail: 'https://i.pinimg.com/736x/73/9a/75/739a7533eb5dd79b87a73c9da01dd853.jpg',
-    embedHtml: `<div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1080899686?h=4b2006017a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sequence 01"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`,
-  },
-  {
-    id: 2,
-    aspect: 'horizontal',
-    thumbnail: 'https://i.pinimg.com/736x/64/2b/c1/642bc1cafe8a196fec5c20140ee137b4.jpg',
-    embedHtml: `<iframe src="https://player.vimeo.com/video/1080872648?h=604dc4997c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>`,
-  },
-  {
-    id: 3,
-    aspect: 'vertical',
-    thumbnail: 'https://i.pinimg.com/736x/73/9a/75/739a7533eb5dd79b87a73c9da01dd853.jpg',
-    embedHtml: `<div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1080876447?h=4070afc50b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sequence 01"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>`,
-  },
+ 
+
 
   
 ];

@@ -95,7 +95,7 @@ const AboutMe = () => {
         {/* Left: Styled Image */}
         <div className="flex items-center justify-center" ref={imageRef}>
           <img
-            src="https://i.pinimg.com/736x/86/ea/63/86ea635035047f5c2e2736983a047a19.jpg"
+            src="/me.jpeg"
             alt="Kunal working"
             className="w-full max-w-md rounded-2xl shadow-lg border-4 border-[#EBC8F9] transform rotate-[-1.5deg]"
           />

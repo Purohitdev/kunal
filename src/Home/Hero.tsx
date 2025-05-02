@@ -149,8 +149,8 @@ const Hero: React.FC = () => {
       {/* Main Content */}
       <div ref={content} className="z-10 max-w-2xl md:max-w-6xl">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-extrabold text-[#30312C] ">
-          Hire high-performing overseas{' '}
-          <span className="bg-[#EBC8F9] px-2 rounded-3xl inline-block">video editors</span> and save up to 70%
+          Hire high-performing Inidan{' '}
+          <span className="bg-[#EBC8F9] px-2 rounded-3xl inline-block">video editors</span> and save ur Money
         </h1>
 
         <p className="mt-6 text-base sm:text-lg md:text-xl text-[#30312C] font-medium">
