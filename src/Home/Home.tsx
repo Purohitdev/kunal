@@ -10,6 +10,7 @@ import Footer from './Footer';
 import Testimonials from './Test';
 import ContactPage from './Contact';
 import AboutMe from './About';
+import FaqSection from './Faq';
 
 function Home() {
   useEffect(() => {
@@ -24,8 +25,10 @@ function Home() {
       <AboutMe/>
       <CreativeSection />
       <VideoCarousel />
-      <HowItWorks/>
+      {/* <HowItWorks/> */}
       <VideoTypesSection/>
+      <FaqSection/>
+
       <Testimonials/>
       <ContactPage/>
       <Footer/>

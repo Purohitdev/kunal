@@ -80,11 +80,11 @@ const AboutMe = () => {
       {/* Section Title */}
       <div className="max-w-8xl mx-auto text-center mb-16" ref={titleRef}>
         <h2 className="text-3xl md:text-7xl font-extrabold text-[#30312C]">
-          I'm Kunal Kapil <br />
+          I'm Kunal Kapil
           <span className="bg-[#EBC8F9] px-2 rounded-3xl inline-block mt-2">
             Video Editor
           </span>{' '}
-          & Content Designer
+
         </h2>
         <p className="mt-6 text-gray-700 text-md md:text-lg font-medium max-w-xl mx-auto">
           Editing for emotion. Designing for impact. Helping creators & brands tell unforgettable stories.
@@ -107,16 +107,16 @@ const AboutMe = () => {
           {[
             {
               icon: <Sparkles className="text-[#EBC8F9] min-w-5 mt-1" />,
-              text: `I turn raw footage into bold, engaging digital stories. From reels to marketing edits, I help brands and creators stand out visually and emotionally.`,
+              text: `I turn raw footage into bold, digital stories — from snappy reels to brand edits that connect.`,
             },
             {
               icon: <Film className="text-[#D6DF3F] min-w-5 mt-1" />,
-              text: `Whether it’s a punchy 15s reel or a cinematic YouTube breakdown, I combine speed, style, and structure to deliver standout results.`,
+              text: `From 15s reels to cinematic cuts, I blend speed, style, and clarity to craft standout content.`,
             },
             {
               icon: <User className="text-[#BDB4F4] min-w-5 mt-1" />,
-              text: `Trusted by creators and marketers across industries — my work is made to scale, perform, and resonate.`,
-            },
+              text: `Trusted by creators and brands — I deliver content that scales, performs, and resonates.`,
+            }
           ].map((item, i) => (
             <div
               key={i}
@@ -132,10 +132,12 @@ const AboutMe = () => {
             </div>
           ))}
 
-          <div ref={buttonRef}>
-          <a href="#contact">
+          <div
+            ref={buttonRef}
+            className=" flex justify-center sm:justify-start"
+            >          <a href="#contact">
 
-            <MagnetButton className="mt-10 px-8 py-4">Let’s Collaborate</MagnetButton>
+              <MagnetButton className="mt-5 px-8 py-4">Let’s Collaborate</MagnetButton>
             </a>
           </div>
         </div>

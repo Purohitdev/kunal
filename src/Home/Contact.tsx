@@ -39,14 +39,19 @@ const ContactPage = () => {
         {/* Left Content */}
         <div className="space-y-8">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight">
-            Hire high-performing <br />
-            overseas{" "}
+
+
+
+          Hire a Dedicated Video <br />
+          Editor  Without the {" "}
             <span className="bg-[#e0c4eb] px-3 py-1 rounded-md font-bold inline-block">
-              video editors
+            Agency Markup
             </span>{" "}
-            <br />
-            and save up to 70%
+            
           </h1>
+          <p>Looking for quality edits without the overhead? Let's work together — just fill out the form below.</p>
+          <p>Phone no: <br/> Email :</p>
+         
         </div>
 
         {/* Right Form */}

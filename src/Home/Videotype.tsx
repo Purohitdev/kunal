@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const items = [
   {
-    title: 'YouTube Shorts',
+    title: 'Vlog Videos',
     icon: 'https://cdn.prod.website-files.com/644ce907322b022df1244c29/659ee6aa3cf1f137cdb30a48_videotypes-06%402x.webp',
   },
   {
@@ -28,7 +28,7 @@ const items = [
     icon: 'https://cdn.prod.website-files.com/644ce907322b022df1244c29/659ee6a9be223ef7f3bfe537_videotypes-08%402x.webp',
   },
   {
-    title: 'TikTok Videos',
+    title: 'Poadcast',
     icon: 'https://cdn.prod.website-files.com/644ce907322b022df1244c29/659ee6a9d4728da34ee4ec1f_videotypes-04%402x.webp',
   },
   {
