@@ -134,7 +134,7 @@ const Hero: React.FC = () => {
   return (
     <div
       ref={wrapper}
-      className="relative bg-[#FFEDE1] min-h-screen flex flex-col items-center justify-center px-4 md:px-6 text-center overflow-hidden"
+      className="relative bg-[#FFEDE1] min-h-screen flex flex-col items-center justify-center px-4 md:px-6 text-center overflow-x-hidden"
     >
       {/* Background Shapes */}
       <div
