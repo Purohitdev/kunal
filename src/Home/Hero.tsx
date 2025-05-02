@@ -149,16 +149,15 @@ const Hero: React.FC = () => {
       {/* Main Content */}
       <div ref={content} className="z-10 max-w-2xl md:max-w-6xl">
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-extrabold text-[#30312C] ">
-          Hire high-performing Inidan{' '}
-          <span className="bg-[#EBC8F9] px-2 rounded-3xl inline-block">video editors</span> and save ur Money
+        Work with a high-performing freelance{' '}
+          <span className="bg-[#EBC8F9] px-2 rounded-3xl inline-block">video editor</span>and save on agency costs
         </h1>
 
         <p className="mt-6 text-base sm:text-lg md:text-xl text-[#30312C] font-medium">
-          Embedded video editors expertly trained to create the high-performing content your team needs to stand out in a sea of sameness.
-        </p>
+        I create scroll-stopping short-form content and engaging long-form videos—tailored to help your brand stand out, without the overhead of a large agency.        </p>
 
         <MagnetButton className="mt-8 sm:mt-10 px-6 py-3 sm:px-8 sm:py-4 text-sm sm:text-base">
-          Hire an Editor
+        Let's Connect
         </MagnetButton>
       </div>
     </div>

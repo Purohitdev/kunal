@@ -79,8 +79,8 @@ const BentoGrid: React.FC = () => {
       <div className="text-center mb-12">
         <p className="text-lg font-semibold mb-2">Types of Videos</p>
         <h2 className="text-4xl md:text-6xl font-extrabold leading-tight max-w-3xl mx-auto">
-          Whatever you need, we’ve got an editor for it
-        </h2>
+        Whatever your vision, I’ve got the edit for it
+                </h2>
       </div>
 
       <div className="min-h-[110vh] flex flex-col md:flex-row gap-2 md:gap-0">
