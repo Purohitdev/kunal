@@ -60,8 +60,6 @@ const Nav: React.FC = () => {
         <div className="hidden md:flex gap-8 text-base md:text-lg">
         <a href="#about" className="hover:underline">About</a>
           <a href="#Project" className="hover:underline">Project</a>
-          <a href="#how" className="hover:underline">How it Works</a>
-          <a href="#service" className="hover:underline">Service</a>
           <a href="#contact" className="hover:underline">Contact</a>
         </div>
 
@@ -70,7 +68,7 @@ const Nav: React.FC = () => {
         <a href="#contact">
 
           <MagnetButton className="px-5 py-2 text-sm md:text-base">
-            Hire an Editor
+            Hire Me
           </MagnetButton>
           </a>
         </div>

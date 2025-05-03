@@ -4,7 +4,6 @@ import Nav from '../Nav';
 import CreativeSection from './CreativeSection';
 import Hero from './Hero';
 import VideoCarousel from './Video';
-import VideoTypesSection from './Videotype';
 import Footer from './Footer';
 import Testimonials from './Test';
 import ContactPage from './Contact';
@@ -21,16 +20,13 @@ function Home() {
       <CursorFollower />
       <Nav />
       <Hero />
-      <AboutMe/>
+      <AboutMe />
       <CreativeSection />
       <VideoCarousel />
-      {/* <HowItWorks/> */}
-      <VideoTypesSection/>
-      <FaqSection/>
-
-      <Testimonials/>
-      <ContactPage/>
-      <Footer/>
+      <Testimonials />
+      <ContactPage />
+      <FaqSection />
+      <Footer />
     </div>
   );
 }

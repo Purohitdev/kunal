@@ -51,8 +51,8 @@ const FaqSection: React.FC = () => {
   };
 
   return (
-    <section className="py-16 px-4 ">
-      <div className=" mx-auto bg-[#C9C1B4] rounded-2xl p-6 md:p-12 flex flex-col gap-10 text-[#1C1C1A] shadow-md">
+    <section className="py-6 px-4 ">
+      <div className=" mx-auto bg-[#c9bff0] rounded-2xl p-6 md:p-12 flex flex-col gap-10 text-[#1C1C1A] shadow-md">
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-start gap-24">
           <h2 className="text-4xl md:text-6xl font-extrabold max-w-md">

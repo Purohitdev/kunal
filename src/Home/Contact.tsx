@@ -31,14 +31,14 @@ const ContactPage = () => {
   }, []);
 
   return (
-    <section id="contact" ref={sectionRef} className="px-6 md:px-8 py-20 text-[#2c2c2c]">
+    <section id="contact" ref={sectionRef} className="px-6 md:px-8 py-10 text-[#2c2c2c]">
       <div
         ref={formBlockRef}
-        className="mx-auto bg-[#D6DF3F] grid md:grid-cols-2 gap-16 rounded-3xl p-10 md:p-16"
+        className="mx-auto bg-[#c9bff0] grid md:grid-cols-2 gap-16 rounded-3xl p-10 md:p-16"
       >
         {/* Left Content */}
         <div className="space-y-8">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight">
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight tracking-tight">
 
 
 
@@ -50,7 +50,6 @@ const ContactPage = () => {
             
           </h1>
           <p>Looking for quality edits without the overhead? Let's work together — just fill out the form below.</p>
-          <p>Phone no: <br/> Email :</p>
          
         </div>
 
@@ -60,7 +59,7 @@ const ContactPage = () => {
             {[
               { label: "First Name *", placeholder: "Jane", type: "text" },
               { label: "Last Name *", placeholder: "Smith", type: "text" },
-              { label: "Work Email *", placeholder: "name@example.com", type: "email" },
+              { label: "Contact no *", placeholder: "9988776655", type: "text" },
               {
                 label: "Type of Video Editing *",
                 type: "select",
