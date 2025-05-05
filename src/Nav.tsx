@@ -53,7 +53,7 @@ const Nav: React.FC = () => {
 
         {/* Logo - always centered */}
         <div className="absolute left-1/2 transform -translate-x-1/2 text-xl md:text-2xl font-extrabold">
-          Kunal
+        <img src="/logo.png" alt="" className='md:h-5 h-3'/>
         </div>
 
         {/* Desktop Links */}
