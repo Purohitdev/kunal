@@ -78,10 +78,9 @@ const Nav: React.FC = () => {
       {menuOpen && (
         <div className="md:hidden mt-4 px-2">
           <ul className="flex flex-col gap-4 text-base font-medium bg-[#FFEDE1] p-4 rounded shadow-md">
-            <li><a href="#examples" className="hover:underline">Project</a></li>
-            <li><a href="#how" className="hover:underline">How it Works</a></li>
-            <li><a href="#pricing" className="hover:underline">Service</a></li>
-            <li><a href="#faq" className="hover:underline">Contact</a></li>
+          <a href="#about" className="hover:underline">About</a>
+          <a href="#Project" className="hover:underline">Project</a>
+          <a href="#contact" className="hover:underline">Contact</a>
           </ul>
         </div>
       )}
